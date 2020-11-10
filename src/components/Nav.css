@@ -1,0 +1,47 @@
+.nav__logo {
+  object-fit: contain;
+  height: 85px;
+  padding: 10px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+}
+
+a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid red;
+}
+
+.nav__credit {
+  color: white;
+  height: 40px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__credit > p {
+  margin-right: 5px;
+}
+
+.nav--end {
+  background-color: #f3f3f4;
+  height: 10vh;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .nav__logo {
+    height: 50px !important;
+  }
+}
+@media (max-width: 414px) {
+  .nav__logo {
+    height: 50px !important;
+  }
+}

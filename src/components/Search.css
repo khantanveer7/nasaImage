@@ -1,0 +1,38 @@
+.serach {
+  margin-bottom: 20px;
+}
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  /* height: 30px; */
+  padding: 10px;
+  border-radius: 20px;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -25px;
+  max-width: 576px;
+}
+
+.search__input > input:focus {
+  outline: 0;
+}
+.search__input > input {
+  background-color: transparent;
+  border: none;
+  flex: 1;
+  font-size: medium;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .search__input {
+    max-width: 540px;
+  }
+}
+/* Mobile */
+@media (max-width: 375px) {
+  .search__input {
+    max-width: 200px;
+  }
+}
